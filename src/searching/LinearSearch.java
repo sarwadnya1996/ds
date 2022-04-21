@@ -2,6 +2,7 @@ package searching;
 
 /**
  * Time complexity-->O(n)
+ *
  */
 public class LinearSearch {
     public static int search(int[] arr,int key){
