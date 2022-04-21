@@ -1,3 +1,5 @@
+package searching;
+
 /**
  * Time complexity-->O(n)
  */
