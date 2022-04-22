@@ -22,5 +22,7 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(bubbleSort(new int[]{54,12,23,89,78})));
+
+        //Arrays.toString(int[])  to print array instead of taking loop
     }
 }
