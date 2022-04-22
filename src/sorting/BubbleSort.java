@@ -9,8 +9,8 @@ import java.util.Arrays;
 public class BubbleSort {
     public static int[] bubbleSort(int[] arr){
         for(int i=0;i<arr.length;i++){
-            for(int j=i;j<arr.length;j++){
-                if(arr[i]<arr[j]) {    //for  descending  if(arr[i]>arr[j) can be used for ascending sorting
+            for(int j=0;j<arr.length;j++){
+                if(arr[i]<arr[j]) {    //for  descending  if(arr[i]>arr[j)
                     int temp = arr[i];  //logic to swap the values
                     arr[i] = arr[j];
                     arr[j] = temp;
